@@ -1,0 +1,1 @@
+Se recibe como entrada una lista de números en punto flotante, el listado finaliza con la tercera aparición del valor -1. La lista debe almacenarse en una lista enlazada simple siguiendo el patrón FIFO. Escriba un programa en C que invierta la lista (solo se puede apoyar en estructuras de datos dinámicas). La salida es la lista original en el orden inverso. 

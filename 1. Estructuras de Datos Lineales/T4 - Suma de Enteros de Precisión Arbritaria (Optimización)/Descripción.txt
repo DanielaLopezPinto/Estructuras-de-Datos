@@ -1,0 +1,12 @@
+En muchas aplicaciones científicas los enteros utilizados superan la capacidad máxima de representación de los tipos de datos primitivos estándar de C, como long long (cuyo límite máximo es de aproximadamente 9 \times 10^{18}).
+
+Para resolver esta limitación sin recurrir a librerías externas, se requiere implementar un sistema de almacenamiento y procesamiento basado en listas enlazadas dinámicas.
+
+Aunque la suma dígito a dígito pueda resultar eficaz para resolver el problema resulta excesivamente costosa en memoria ya que la mayoría de esta se consume en la gestión de los apuntadores que la hacen posible y la capacidad de almacenamiento de los nodos no se aprovecha al trabajarlos por debajo de su máxima capacidad.
+
+Escriba un programa en C que permita sumar dos números enteros positivos de longitud arbitraria (de miles de dígitos) optimizando el uso de la memoria. Cada nodo de la lista enlazada debe utilizar un campo de tipo short del que se debe sacar el mayor partido posible para poder reducir la cantidad de nodos usados en el proceso.
+Restricciones Técnicas y de Diseño:
+1. Tipo de Dato del Nodo: El campo de datos del nodo debe ser obligatoriamente de tipo short.
+2. Empaquetamiento por Bloques: Cada nodo representará un bloque numérico.
+3. Restricción de Memoria: Queda prohibido el uso de arreglos estáticos o dinámicos para realizar la operación de suma. Todo el almacenamiento debe residir en la lista enlazada dinámica.
+4. Gestión de Memoria: El programa debe liberar de manera adecuada toda la memoria dinámica utilizada mediante funciones de destrucción (free) al finalizar la ejecución, evitando fugas de memoria (memory leaks).

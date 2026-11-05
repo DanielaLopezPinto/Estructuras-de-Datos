@@ -1,0 +1,1 @@
+Se toma como entrada una cadena de números enteros separados por espacio. Almacene los datos en un BST y de la salida en in orden.

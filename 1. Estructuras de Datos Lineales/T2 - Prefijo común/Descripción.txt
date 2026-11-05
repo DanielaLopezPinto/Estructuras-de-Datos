@@ -1,0 +1,2 @@
+Se recibe como entrada un número entero n (2 <= n <= 10) y n cadenas de caracteres de máximo longitud 20. Escriba un programa en C que de como salida el prefijo común de mayor longitud de las n cadenas. Si no existe tal prefijo la salida debe ser el caracter -.
+

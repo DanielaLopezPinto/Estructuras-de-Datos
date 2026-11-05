@@ -1,0 +1,1 @@
+Se toma como entrada una cadena binaria escrita en posorden con dato centinela cero (0). Cree una función que reconstruya el árbol binario original y lo recorra en inorden.

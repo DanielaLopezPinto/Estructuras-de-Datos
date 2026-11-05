@@ -1,0 +1,1 @@
+Se recibe como entrada una lista de números enteros que finaliza con la aparición del valor cero. La lista debe almacenarse en una lista enlazada simple siguiendo el patrón FIFO. Escriba un programa en C que separe el listado original en dos listas enlazadas simples, una de números pares y otra de números impares.

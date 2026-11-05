@@ -1,0 +1,3 @@
+Escriba en C un programa que toma como entrada 
+una lista de número enteros y construya, 
+ya sea un heap con la regla MinHeap.

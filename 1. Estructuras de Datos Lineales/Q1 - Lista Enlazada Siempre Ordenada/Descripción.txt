@@ -1,0 +1,1 @@
+Se recibe como entrada una lista de números enteros que finaliza con cero (el cero no es un valor posible en la lista). Escriba una función en C que mantenga ordenada la lista enlazada que contiene los números. La salida del progrma es la lista enlazada que debe ser eliminada de memoria al finalizar.

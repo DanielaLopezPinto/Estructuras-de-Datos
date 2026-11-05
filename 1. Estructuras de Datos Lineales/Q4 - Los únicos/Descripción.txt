@@ -1,0 +1,1 @@
+Se toma como entrada un arreglo de números enteros positivos o negativos de máximo longitud 100. Escriba un programa en C que gestione una lista enlazada en la que se almacenan los números con solo una ocurrencia en el listado. La salida es los números en la lista en orden FIFO. La lista debe ser liberada al final del proceso.

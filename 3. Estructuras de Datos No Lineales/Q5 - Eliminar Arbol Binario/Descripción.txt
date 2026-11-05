@@ -1,0 +1,3 @@
+Implemente la función:
+void eliminarArbol(arbolBinario) 
+que tiene por tarea la liberación de la memoria usada por un árbol binario creado previamente.
